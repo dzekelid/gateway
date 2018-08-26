@@ -1,30 +1,34 @@
 ---
 name: Axway
-description: 'Axway (Euronext: AXW.PA), acquired API Gateway vendor, Vordel, to complement
-  its existing MFT and B2B Gateway products. Axway???s suite of products enables enterprise
-  to govern the flow of data within and across the edge of the enterprise, unlocking
-  the tremendous value this can bring to business interactions. Axway API Management
-  offers the enterprise-grade API management architecture with the security to protect
-  sensitive data, control access and support integration to a wide range of on-premise
-  and cloud-based applications.'
-image: https://avatars.githubusercontent.com/u/5559759?v=3
+x-slug: axway
+description: The Axway AMPLIFY platform unifies your employees, suppliers, partners
+  and developers to create a powerful Customer Experience Network.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21-axway.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Management
-- Gateway
-- Deployment
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/gateway/master/_listings/axway/apis.yaml
+x-alexaRank: "137089"
+tags: Gateway
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/axway/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-website
+  url: http://axway.com
 - type: x-blog
   url: http://blogs.axway.com/
 - type: x-blog-rss
-  url: http://blogs.axway.com/feed/rss
+  url: https://www.axway.com/en/rss.xml
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/axway
+- type: x-email
+  url: webmaster@axway.com
+- type: x-email
+  url: legal@axway.com
+- type: x-email
+  url: privacy@axway.com
+- type: x-email
+  url: LKurtz@axway.com
 - type: x-github
   url: https://github.com/Axway
 - type: x-twitter

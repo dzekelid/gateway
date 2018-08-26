@@ -1,23 +1,15 @@
 ---
 name: CA Technologies
-description: The industry-leading family of API gateways from CA Technologies offers
-  unmatched flexibility, performance and security. Building on the foundation of its
-  industry-leading SOA application gateway technology for exposing, securing and managing
-  backend applications, network systems or infrastructure via APIs, CA Technologies
-  has added critical mobile, cloud and REST composition features. With this additional
-  functionality, CA API Gateways represent the best available solution for enterprises
-  looking to open data and services to partners, developers, mobile apps, cloud services
-  and smart devices.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ca_logo.jpg
-x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Gateway
-- Deployment
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/gateway/master/_listings/ca-technologies/apis.yaml
+x-slug: ca-technologies
+description: Transform digital business with CA Technologies. Software and expertise
+  to create a Modern Software Factory built on agility, automation, insights and security.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18906-ca-technologies.jpg
+x-kinRank: "9"
+x-alexaRank: "16329"
+tags: Gateway
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/ca-technologies/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -25,6 +17,14 @@ x-common:
   url: http://blogs.ca.com/?intcmp=footernav
 - type: x-blog-rss
   url: http://blogs.ca.com/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/ca
+- type: x-email
+  url: cainfo@ca.com
+- type: x-email
+  url: CAEducation@ca.com
+- type: x-email
+  url: Team-AgileBU-AgileSales@ca.com
 - type: x-twitter
   url: https://twitter.com/CAInc
 - type: x-website

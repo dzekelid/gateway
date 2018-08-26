@@ -1,41 +1,145 @@
 ---
 name: AWS Storage Gateway Service
+x-slug: aws-storage-gateway-service
 description: The AWS Storage Gateway service seamlessly enables hybrid storage between
-  on-premises storage environments andnbsp;the AWS Cloud. It combines a multi-protocol
-  storage appliance with highly efficient network connectivity tonbsp;Amazon cloud
-  storagenbsp;services, deliveringnbsp; local performance with virtually unlimited
-  scale. Customers use it in remote offices and datacenters for hybrid cloud workloads,
-  backup and restore, archive, disaster recovery, and tiered storage.nThe Storage
-  Gateway virtual appliance connects seamlessly to your local infrastructure as a
-  file server, as a volume, or as a virtual tape library (VTL). This seamless connection
-  makes it simple for organizations to augment existing on-premises storage investments
-  with the high scalability, extreme durability and low cost of cloud storage. nbsp;
+  on-premises storage environments andthe AWS Cloud. It combines a multi-protocol
+  storage appliance with highly efficient network connectivity toAmazon cloud storageservices,
+  delivering local performance with virtually unlimited scale. Customers use it in
+  remote offices and datacenters for hybrid cloud workloads, backup and restore, archive,
+  disaster recovery, and tiered storage.The Storage Gateway virtual appliance connects
+  seamlessly to your local infrastructure as a file server, as a volume, or as a virtual
+  tape library (VTL). This seamless connection makes it simple for organizations to
+  augment existing on-premises storage investments with the high scalability, extreme
+  durability and low cost of cloud storage.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Gateway
-- Deployment
-- Database
-- Data
-- Amazon Web Services
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/gateway/master/_listings/aws-storage-gateway-service/apis.yaml
+x-alexaRank: "0"
+tags: Gateway
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Storage Gateway Service API
-  description: The AWS Storage Gateway service seamlessly enables hybrid storage between
-    on-premises storage environments andnbsp;the AWS Cloud
+- name: AWS Storage Gateway Service API - Activate Gateway
+  x-api-slug: actionactivategateway-get
+  description: Activates the gateway you previously deployed on your host.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
-  humanURL: ""
+  humanURL: https://aws.amazon.com/storagegateway/
   baseURL: :///
-  tags: Gateway
+  tags: Amazon Web Services, Gateway, Data, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Databases, Deployments, Profiles, Relative Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/actionactivategateway-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/gateway/master/_listings/aws-storage-gateway-service/action-updatevtldevicetype-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/actionactivategateway-get-openapi.md
+- name: AWS Storage Gateway Service API - Delete Gateway
+  x-api-slug: actiondeletegateway-get
+  description: Deletes a gateway.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  humanURL: https://aws.amazon.com/storagegateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Data, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Databases, Deployments, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/actiondeletegateway-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/actiondeletegateway-get-openapi.md
+- name: AWS Storage Gateway Service API - Describe Gateway Information
+  x-api-slug: actiondescribegatewayinformation-get
+  description: |-
+    Returns metadata about a gateway such as its name, network interfaces, configured
+             time zone, and the state (whether the gateway is running or not).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  humanURL: https://aws.amazon.com/storagegateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Data, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Databases, Deployments, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/actiondescribegatewayinformation-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/actiondescribegatewayinformation-get-openapi.md
+- name: AWS Storage Gateway Service API - Disable Gateway
+  x-api-slug: actiondisablegateway-get
+  description: Disables a gateway when the gateway is no longer functioning.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  humanURL: https://aws.amazon.com/storagegateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Data, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Databases, Deployments, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/actiondisablegateway-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/actiondisablegateway-get-openapi.md
+- name: AWS Storage Gateway Service API - Shutdown Gateway
+  x-api-slug: actionshutdowngateway-get
+  description: Shuts down a gateway.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  humanURL: https://aws.amazon.com/storagegateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Data, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Databases, Deployments, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/actionshutdowngateway-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/actionshutdowngateway-get-openapi.md
+- name: AWS Storage Gateway Service API - Start Gateway
+  x-api-slug: actionstartgateway-get
+  description: Starts a gateway that you previously shut down (see.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  humanURL: https://aws.amazon.com/storagegateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Data, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Databases, Deployments, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/actionstartgateway-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/actionstartgateway-get-openapi.md
+- name: AWS Storage Gateway Service API - Update Gateway Information
+  x-api-slug: actionupdategatewayinformation-get
+  description: Updates a gateway's metadata, which includes the gateway's name and
+    time zone.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  humanURL: https://aws.amazon.com/storagegateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Data, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Databases, Deployments, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/actionupdategatewayinformation-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/actionupdategatewayinformation-get-openapi.md
+- name: AWS Storage Gateway Service API - Update Gateway Software Now
+  x-api-slug: actionupdategatewaysoftwarenow-get
+  description: Updates the gateway virtual machine (VM) software.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  humanURL: https://aws.amazon.com/storagegateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Data, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Databases, Deployments, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/actionupdategatewaysoftwarenow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/actionupdategatewaysoftwarenow-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.step.functions.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.storage.gateway.service.stack.network
 - type: x-documentation
   url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
 - type: x-faq

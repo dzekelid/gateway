@@ -1,5 +1,6 @@
 ---
 name: AWS API Gateway
+x-slug: aws-api-gateway
 description: Amazon API Gateway is a fully managed service that makes it easy for
   developers to create, publish, maintain, monitor, and secure APIs at any scale.
   With a few clicks in the AWS Management Console, you can create an API that acts
@@ -13,28 +14,31 @@ description: Amazon API Gateway is a fully managed service that makes it easy fo
   transferred out.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Gateway
-- Deployment
-- Amazon Web Services
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/gateway/master/_listings/aws-api-gateway/apis.yaml
+x-alexaRank: "0"
+tags: Gateway
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-api-gateway/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS API Gateway API
-  description: Amazon API Gateway is a fully managed service that makes it easy for
-    developers to create, publish, maintain, monitor, and secure APIs at any scale
+- name: AWS API Gateway API - Root Service
+  x-api-slug: get
+  description: Represents the root of the Amazon API Gateway control service.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
-  humanURL: ""
+  humanURL: https://aws.amazon.com/api-gateway/
   baseURL: :///
-  tags: Gateway
+  tags: Amazon Web Services, Gateway, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Deployments, Profiles, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-api-gateway/get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/gateway/master/_listings/aws-api-gateway/enabling-alpha<-code>,.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-api-gateway/get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://awhere.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.api.gateway.stack.network
 - type: x-documentation
   url: https://docs.aws.amazon.com/apigateway/api-reference/
 - type: x-faq

@@ -1,21 +1,16 @@
 ---
 name: OpenLegacy
-description: OpenLegacy has pioneered a disruptive approach to legacy modernization
-  and application integration by focusing on business needs instead of on replacing
-  existing solutions. The company believes in building on the value of legacy systems
-  rather than rushing to replace them. OpenLegacy???s comprehensive, end-to-end integration
-  platform unlocks the application services and information in mainframes, AS/400
-  and databases, automatically transforming them into mobile, web and cloud applications.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/openlegacy-logo.png
+x-slug: openlegacy
+description: API Integration and API Management software to create APIs to leverage
+  core (legacy) systems & quickly deliver innovative digital transformation projects
+  using a microservices approach.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11781-openlegacy.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Gateway
-- Deployment
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/gateway/master/_listings/openlegacy/apis.yaml
+x-alexaRank: "5556949"
+tags: Gateway
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/openlegacy/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -23,8 +18,12 @@ x-common:
   url: http://openlegacy.com/blog/
 - type: x-blog-rss
   url: http://openlegacy.com/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/openlegacy
 - type: x-developer
   url: http://developer.openlegacy.com/
+- type: x-email
+  url: jennifer.t@openlegacy.com
 - type: x-email
   url: info@openlegacy.com
 - type: x-github
