@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1448-modic
 x-kinRank: "7"
 x-alexaRank: "7378729"
 tags: Gateway
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/modica-global-connect/apis.md
 specificationVersion: "0.14"
 apis: []

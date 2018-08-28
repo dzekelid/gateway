@@ -15,8 +15,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Gateway
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/apis.md
 specificationVersion: "0.14"
 apis:
@@ -135,6 +135,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/actionupdategatewaysoftwarenow-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/actionupdategatewaysoftwarenow-get-openapi.md
+- name: AWS Storage Gateway Service API - List Gateways
+  x-api-slug: actionlistgateways-get
+  description: Lists gateways owned by an AWS account in a region specified in the
+    request.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  humanURL: https://aws.amazon.com/storagegateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Data, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Databases, Deployments, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/aws-storage-gateway-service/actionlistgateways-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.step.functions.api.gallery.streamdata.io

@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2674-nginx
 x-kinRank: "7"
 x-alexaRank: "14558"
 tags: Gateway
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/nginx-web-server/apis.md
 specificationVersion: "0.14"
 apis: []

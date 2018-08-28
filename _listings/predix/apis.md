@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "264121"
 tags: Gateway
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/predix/apis.md
 specificationVersion: "0.14"
 apis:
@@ -24,6 +24,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/predix/apisettings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/predix/apisettings-get-openapi.md
+- name: Enterprise Connect API (osaka.67) - Update the EC gateway setting in the account
+  x-api-slug: adminaccountspredixzoneid-put
+  description: Update the EC gateway setting in the account with the CF details
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https://ec-predix-service-osaka.run.aws-usw02-pr.ice.predix.io//v1
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateway/master/_listings/predix/adminaccountspredixzoneid-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://predicthq.api.gallery.streamdata.io
